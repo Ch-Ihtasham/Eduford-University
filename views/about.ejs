@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Biggest University </title>
+    <link rel="stylesheet" href="../styleSheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="Sub-header">
+        <nav>
+            <img src="../images/logo.png">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hide()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Course</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="show()"></i>
+
+        </nav>
+        <div class="About">
+            <h1>About Us</h1>
+
+        </div>
+    </section>
+
+    <section class="About-Us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, assumenda voluptates? Adipisci
+                    veritatis laborum modi. Laborum quisquam sunt sequi labore velit minima qui saepe. Veniam assumenda
+                    rem eum temporibus vero? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis,
+                    assumenda voluptates? Adipisci
+                    veritatis laborum modi. </p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="../images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--------fotter------->
+
+    <section class="fotter">
+        <h4>About Us</h4>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae inventore magni beatae? Asperiores rem <br>
+            quibusdam dolor placeat eveniet est iste esse eaque facere suscipit officia, doloribus Quis,
+            incidunt veritatis.</P>
+        <div class="icons">
+            <a href="https://www.facebook.com"> <i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com"> <i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com"> <i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+
+        </div>
+        <p>Made by <i class="fa fa-heart-o"></i> Ch Ihtasham</p>
+    </section>
+
+
+
+    <!----------Java Script ------>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function hide() {
+            navLinks.style.right = "-200px";
+            
+        }
+        function show() {
+            navLinks.style.right = "0";
+            
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>
